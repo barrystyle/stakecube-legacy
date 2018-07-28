@@ -18,14 +18,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Netko"
-            VALUE "FileDescription",    "Netko-Qt (OSS GUI client for Netko)"
+            VALUE "CompanyName",        "Stakecube"
+            VALUE "FileDescription",    "Stakecube-Qt (OSS GUI client for Stakecube)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
             VALUE "InternalName",       "stakecube-qt"
-            VALUE "LegalCopyright",     "2009-2014 The Bitcoin developers, 2012-2014 The NovaCoin & PPCoin developers, 2014 The Netko developers"
+            VALUE "LegalCopyright",     "2009-2014 The Bitcoin developers, 2012-2014 The NovaCoin & PPCoin developers, 2014 The Stakecube developers"
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
             VALUE "OriginalFilename",   "stakecube-qt.exe"
-            VALUE "ProductName",        "Netko-Qt"
+            VALUE "ProductName",        "Stakecube-Qt"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

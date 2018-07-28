@@ -1,9 +1,9 @@
 [Desktop Entry]
 Encoding=UTF-8
-Name=Netko
-Comment=Netko P2P Cryptocurrency
-Comment[fr]=Netko, monnaie virtuelle cryptographique pair à pair
-Comment[tr]=Netko, eşten eşe kriptografik sanal para birimi
+Name=Stakecube
+Comment=Stakecube P2P Cryptocurrency
+Comment[fr]=Stakecube, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Stakecube, eşten eşe kriptografik sanal para birimi
 Exec=/usr/bin/stakecube-qt
 Terminal=false
 Type=Application

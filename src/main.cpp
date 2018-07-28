@@ -21,7 +21,7 @@ using namespace std;
 using namespace boost;
 
 #if defined(NDEBUG)
-# error "Netko cannot be compiled without assertions."
+# error "Stakecube cannot be compiled without assertions."
 #endif
 
 //
@@ -75,7 +75,7 @@ map<uint256, set<uint256> > mapOrphanTransactionsByPrev;
 // Constant stuff for coinbase transactions we create:
 CScript COINBASE_FLAGS;
 
-const string strMessageMagic = "Netko Signed Message:\n";
+const string strMessageMagic = "Stakecube Signed Message:\n";
 
 //////////////////////////////////////////////////////////////////////////////
 //

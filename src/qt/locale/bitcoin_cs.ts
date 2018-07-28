@@ -3,22 +3,22 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Netko</source>
-        <translation>O Netkou</translation>
+        <source>About Stakecube</source>
+        <translation>O Stakecubeu</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Netko&lt;/b&gt; version</source>
-        <translation>Verze &lt;b&gt;Netkou&lt;/b&gt; </translation>
+        <source>&lt;b&gt;Stakecube&lt;/b&gt; version</source>
+        <translation>Verze &lt;b&gt;Stakecubeu&lt;/b&gt; </translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The Netko developers</source>
+Copyright © 2014 The Stakecube developers</source>
         <translation>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The Netko developers</translation>
+Copyright © 2014 The Stakecube developers</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -60,8 +60,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-43"/>
-        <source>These are your Netko addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Tato jsou tvé Netko adresy pro příjem plateb. Každému odesílateli můžeš dát jinou adresu, aby jsi mohl sledovat, kdo ti platí.</translation>
+        <source>These are your Stakecube addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Tato jsou tvé Stakecube adresy pro příjem plateb. Každému odesílateli můžeš dát jinou adresu, aby jsi mohl sledovat, kdo ti platí.</translation>
     </message>
     <message>
         <location line="+53"/>
@@ -75,8 +75,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign a message to prove you own a Netko address</source>
-        <translation>Podepiš zprávu, aby jsi dokázal, že vlastníš tuto Netko adresu.</translation>
+        <source>Sign a message to prove you own a Stakecube address</source>
+        <translation>Podepiš zprávu, aby jsi dokázal, že vlastníš tuto Stakecube adresu.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -90,8 +90,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-10"/>
-        <source>Verify a message to ensure it was signed with a specified Netko address</source>
-        <translation>Ověř zprávu, aby jsi zajistil, že byla podepsaná určitou Netko adresou.</translation>
+        <source>Verify a message to ensure it was signed with a specified Stakecube address</source>
+        <translation>Ověř zprávu, aby jsi zajistil, že byla podepsaná určitou Stakecube adresou.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -258,8 +258,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+82"/>
-        <source>Netko will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>Pro dokončení procesu šifrování se Netko nyní zavře, Pamatuj, že zašifrování tvé peněženky nemůže plně ochránit tvé mince před krádeží, pokud máš počítač infikován malwerem.</translation>
+        <source>Stakecube will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>Pro dokončení procesu šifrování se Stakecube nyní zavře, Pamatuj, že zašifrování tvé peněženky nemůže plně ochránit tvé mince před krádeží, pokud máš počítač infikován malwerem.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -352,8 +352,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about Netko</source>
-        <translation>Zobraz informace a Netkou</translation>
+        <source>Show information about Stakecube</source>
+        <translation>Zobraz informace a Stakecubeu</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -392,13 +392,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-55"/>
-        <source>Send coins to a Netko address</source>
-        <translation>Odešli mince na Netko adresu</translation>
+        <source>Send coins to a Stakecube address</source>
+        <translation>Odešli mince na Stakecube adresu</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>Modify configuration options for Netko</source>
-        <translation>Uprav možnosti konfigurace pro Netko</translation>
+        <source>Modify configuration options for Stakecube</source>
+        <translation>Uprav možnosti konfigurace pro Stakecube</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -438,8 +438,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-214"/>
         <location line="+555"/>
-        <source>Netko</source>
-        <translation>Netko</translation>
+        <source>Stakecube</source>
+        <translation>Stakecube</translation>
     </message>
     <message>
         <location line="-555"/>
@@ -448,8 +448,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+193"/>
-        <source>&amp;About Netko</source>
-        <translation>&amp;O Netkou</translation>
+        <source>&amp;About Stakecube</source>
+        <translation>&amp;O Stakecubeu</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -500,13 +500,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+0"/>
         <location line="+58"/>
-        <source>Netko client</source>
-        <translation>Netko klient</translation>
+        <source>Stakecube client</source>
+        <translation>Stakecube klient</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to Netko network</source>
-        <translation><numerusform>%n aktivní spojení do Netko sítě</numerusform><numerusform>%n aktivních spojení do Netko sítě</numerusform><numerusform>%n aktivních spojení do Netko sítě</numerusform></translation>
+        <source>%n active connection(s) to Stakecube network</source>
+        <translation><numerusform>%n aktivní spojení do Stakecube sítě</numerusform><numerusform>%n aktivních spojení do Stakecube sítě</numerusform><numerusform>%n aktivních spojení do Stakecube sítě</numerusform></translation>
     </message>
     <message>
         <location line="+488"/>
@@ -600,8 +600,8 @@ Adresa: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid Netko address or malformed URI parameters.</source>
-        <translation>URI nejde rozparsovat! To může být způsobeno neplatnou Netko adresou nebo chybnými URI parametry.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid Stakecube address or malformed URI parameters.</source>
+        <translation>URI nejde rozparsovat! To může být způsobeno neplatnou Stakecube adresou nebo chybnými URI parametry.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -723,8 +723,8 @@ Adresa: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+104"/>
-        <source>A fatal error occurred. Netko can no longer continue safely and will quit.</source>
-        <translation>Došlo k závažné chybě. Netko již nemůže dále bezpečně pokračovat a bude ukončen.</translation>
+        <source>A fatal error occurred. Stakecube can no longer continue safely and will quit.</source>
+        <translation>Došlo k závažné chybě. Stakecube již nemůže dále bezpečně pokračovat a bude ukončen.</translation>
     </message>
 </context>
 <context>
@@ -1057,8 +1057,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Netko address.</source>
-        <translation>Zadaná adresa &quot;%1&quot; není platná Netko adresa.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Stakecube address.</source>
+        <translation>Zadaná adresa &quot;%1&quot; není platná Stakecube adresa.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1076,8 +1076,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     <message>
         <location filename="../guiutil.cpp" line="+426"/>
         <location line="+12"/>
-        <source>Netko-Qt</source>
-        <translation>Netko-Qt</translation>
+        <source>Stakecube-Qt</source>
+        <translation>Stakecube-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1149,13 +1149,13 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Netko after logging in to the system.</source>
-        <translation>Automaticky spustit Netko po přihlášení do systému.</translation>
+        <source>Automatically start Stakecube after logging in to the system.</source>
+        <translation>Automaticky spustit Stakecube po přihlášení do systému.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Netko on system login</source>
-        <translation>&amp;Spustit Netko při přihlášení do systému</translation>
+        <source>&amp;Start Stakecube on system login</source>
+        <translation>&amp;Spustit Stakecube při přihlášení do systému</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -1164,8 +1164,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Netko client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automaticky otevřít port Netko klienta na routeru. Funguje to jen tehdy, když router podporuje UPnP a je povoleno.</translation>
+        <source>Automatically open the Stakecube client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automaticky otevřít port Stakecube klienta na routeru. Funguje to jen tehdy, když router podporuje UPnP a je povoleno.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1194,7 +1194,7 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location line="-57"/>
-        <source>Connect to the Netko network through a SOCKS5 proxy (e.g. when connecting through Tor).</source>
+        <source>Connect to the Stakecube network through a SOCKS5 proxy (e.g. when connecting through Tor).</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1239,8 +1239,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Netko.</source>
-        <translation>Zde můžeš nastavit jazyk uživatelského rozhraní. Nastavení se projeví až po restartu Netkou.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Stakecube.</source>
+        <translation>Zde můžeš nastavit jazyk uživatelského rozhraní. Nastavení se projeví až po restartu Stakecubeu.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1306,8 +1306,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Netko.</source>
-        <translation>Nastavení se projeví až po restartu Netkou.</translation>
+        <source>This setting will take effect after restarting Stakecube.</source>
+        <translation>Nastavení se projeví až po restartu Stakecubeu.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1325,8 +1325,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     <message>
         <location line="+46"/>
         <location line="+247"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Netko network after a connection is established, but this process has not completed yet.</source>
-        <translation>Zobrazené informace můžou být zastaralé. Tvá peněženka se automaticky synchronizuje s Netko sítí po navázaní spojení, ale tento proces ještě není dokončený.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Stakecube network after a connection is established, but this process has not completed yet.</source>
+        <translation>Zobrazené informace můžou být zastaralé. Tvá peněženka se automaticky synchronizuje s Stakecube sítí po navázaní spojení, ale tento proces ještě není dokončený.</translation>
     </message>
     <message>
         <location line="-173"/>
@@ -1567,8 +1567,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Netko-Qt help message to get a list with possible Netko command-line options.</source>
-        <translation>Zobrazit Netko-Qt nápovědu pro zobrazení seznam dostupným možností příkazového řádku.</translation>
+        <source>Show the Stakecube-Qt help message to get a list with possible Stakecube command-line options.</source>
+        <translation>Zobrazit Stakecube-Qt nápovědu pro zobrazení seznam dostupným možností příkazového řádku.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1587,13 +1587,13 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>Netko - Debug window</source>
-        <translation>Netko - Ladící okno</translation>
+        <source>Stakecube - Debug window</source>
+        <translation>Stakecube - Ladící okno</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Netko Core</source>
-        <translation>Jádro Netkou</translation>
+        <source>Stakecube Core</source>
+        <translation>Jádro Stakecubeu</translation>
     </message>
     <message>
         <location line="+256"/>
@@ -1602,8 +1602,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Netko debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Otevři logovací soubor Netkou z aktuálního datového adresáře. Pro velké logy to může trvat několik sekund.</translation>
+        <source>Open the Stakecube debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Otevři logovací soubor Stakecubeu z aktuálního datového adresáře. Pro velké logy to může trvat několik sekund.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1612,8 +1612,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="+325"/>
-        <source>Welcome to the Netko RPC console.</source>
-        <translation>Vítej v Netko RPC konzoli.</translation>
+        <source>Welcome to the Stakecube RPC console.</source>
+        <translation>Vítej v Stakecube RPC konzoli.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1793,8 +1793,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-174"/>
-        <source>Enter a Netko address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Napiš Netko adresu (např. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a Stakecube address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Napiš Stakecube adresu (např. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1893,8 +1893,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location line="+247"/>
-        <source>WARNING: Invalid Netko address</source>
-        <translation>UPOZORNĚNÍ: Neplatná Netko adresa</translation>
+        <source>WARNING: Invalid Stakecube address</source>
+        <translation>UPOZORNĚNÍ: Neplatná Stakecube adresa</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1967,8 +1967,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Netko address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Zadej Netko adresu (např. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a Stakecube address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Zadej Stakecube adresu (např. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
 </context>
 <context>
@@ -2028,8 +2028,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Netko address</source>
-        <translation>Podepiš zprávu jako důkaz, že vlastníš tuto Netko adresu</translation>
+        <source>Sign the message to prove you own this Stakecube address</source>
+        <translation>Podepiš zprávu jako důkaz, že vlastníš tuto Stakecube adresu</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2060,8 +2060,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Netko address</source>
-        <translation>Ověř zprávu, aby ses ujistil, že byla podepsána danou Netko adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified Stakecube address</source>
+        <translation>Ověř zprávu, aby ses ujistil, že byla podepsána danou Stakecube adresou</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2071,8 +2071,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Netko address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Zadej Netko adresu (např. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a Stakecube address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Zadej Stakecube adresu (např. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2081,8 +2081,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Netko signature</source>
-        <translation>Zadej Netko podpis</translation>
+        <source>Enter Stakecube signature</source>
+        <translation>Zadej Stakecube podpis</translation>
     </message>
     <message>
         <location line="+85"/>
@@ -2660,8 +2660,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+171"/>
-        <source>Netko version</source>
-        <translation>Verze Netkou</translation>
+        <source>Stakecube version</source>
+        <translation>Verze Stakecubeu</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2719,7 +2719,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Netko Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Stakecube Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2825,8 +2825,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Netko Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="-103"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Netko will not work properly.</source>
-        <translation>Upozornění: Zkontroluj prosím datum a čas tvého počítače! Pokud jdou tvé hodiny špatně, tak Netko nebude pracovat správně. </translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Stakecube will not work properly.</source>
+        <translation>Upozornění: Zkontroluj prosím datum a čas tvého počítače! Pokud jdou tvé hodiny špatně, tak Stakecube nebude pracovat správně. </translation>
     </message>
     <message>
         <location line="+130"/>
@@ -3120,7 +3120,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Netko Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+8"/>
-        <source>Initialization sanity check failed. Netko is shutting down.</source>
+        <source>Initialization sanity check failed. Stakecube is shutting down.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3175,13 +3175,13 @@ for example: alertnotify=echo %%s | mail -s &quot;Netko Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Netko</source>
-        <translation>Chyba načítání wallet.dat: Peněženka vyžaduje novější verzi Netkou</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Stakecube</source>
+        <translation>Chyba načítání wallet.dat: Peněženka vyžaduje novější verzi Stakecubeu</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart Netko to complete</source>
-        <translation>Peněženka by potřebovala být přepsána: restartuj Netko pro dokončení</translation>
+        <source>Wallet needed to be rewritten: restart Stakecube to complete</source>
+        <translation>Peněženka by potřebovala být přepsána: restartuj Stakecube pro dokončení</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3240,8 +3240,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Netko Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+124"/>
-        <source>Unable to bind to %s on this computer. Netko is probably already running.</source>
-        <translation>Nemůžu se svázat s %s na tomto počítači. Netko nejspíše již běží.</translation>
+        <source>Unable to bind to %s on this computer. Stakecube is probably already running.</source>
+        <translation>Nemůžu se svázat s %s na tomto počítači. Stakecube nejspíše již běží.</translation>
     </message>
     <message>
         <location line="-101"/>
@@ -3275,7 +3275,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Netko Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Netko is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. Stakecube is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>

@@ -7,20 +7,20 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleGetInfoString</key>
-	<string>Netko-Qt</string>
+	<string>Stakecube-Qt</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleExecutable</key>
-	<string>Netko-Qt</string>
+	<string>Stakecube-Qt</string>
 	<key>CFBundleIdentifier</key>
-	<string>co.stakecube.Netko-Qt</string>
+	<string>co.stakecube.Stakecube-Qt</string>
         <key>CFBundleURLTypes</key>
         <array>
           <dict>
             <key>CFBundleTypeRole</key>
             <string>Editor</string>
             <key>CFBundleURLName</key>
-            <string>co.stakecube.NetkoPayment</string>
+            <string>co.stakecube.StakecubePayment</string>
             <key>CFBundleURLSchemes</key>
             <array>
               <string>stakecube</string>

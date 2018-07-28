@@ -50,7 +50,7 @@ bool AppInit(int argc, char* argv[])
         if (mapArgs.count("-?") || mapArgs.count("--help"))
         {
             // First part of help message is specific to bitcoind / RPC client
-            std::string strUsage = _("Netko version") + " " + FormatFullVersion() + "\n\n" +
+            std::string strUsage = _("Stakecube version") + " " + FormatFullVersion() + "\n\n" +
                 _("Usage:") + "\n" +
                   "  stakecubed [options]                     " + "\n" +
                   "  stakecubed [options] <command> [params]  " + _("Send command to -server or stakecubed") + "\n" +

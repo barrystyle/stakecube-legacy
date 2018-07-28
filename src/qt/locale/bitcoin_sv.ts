@@ -3,22 +3,22 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Netko</source>
-        <translation>Vad du behöver veta om Netko</translation>
+        <source>About Stakecube</source>
+        <translation>Vad du behöver veta om Stakecube</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Netko&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Netko&lt;/b&gt; version</translation>
+        <source>&lt;b&gt;Stakecube&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Stakecube&lt;/b&gt; version</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The Netko developers</source>
+Copyright © 2014 The Stakecube developers</source>
         <translation>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The Netko developers</translation>
+Copyright © 2014 The Stakecube developers</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -60,8 +60,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-43"/>
-        <source>These are your Netko addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Dessa är dina Netko adesser för att mottaga betalningsförsändelser. Du kan även använda olika adresser för varje avsändare för att enkelt hålla koll på vem som har skickat en betalning.</translation>
+        <source>These are your Stakecube addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Dessa är dina Stakecube adesser för att mottaga betalningsförsändelser. Du kan även använda olika adresser för varje avsändare för att enkelt hålla koll på vem som har skickat en betalning.</translation>
     </message>
     <message>
         <location line="+53"/>
@@ -75,8 +75,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign a message to prove you own a Netko address</source>
-        <translation>Signera ett meddelande för att bevisa att du äger Netko adressen</translation>
+        <source>Sign a message to prove you own a Stakecube address</source>
+        <translation>Signera ett meddelande för att bevisa att du äger Stakecube adressen</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -90,8 +90,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-10"/>
-        <source>Verify a message to ensure it was signed with a specified Netko address</source>
-        <translation>Verifiera ett meddelande för att försäkra dig över att det var signerat av en specifik Netko adress</translation>
+        <source>Verify a message to ensure it was signed with a specified Stakecube address</source>
+        <translation>Verifiera ett meddelande för att försäkra dig över att det var signerat av en specifik Stakecube adress</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -258,8 +258,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+82"/>
-        <source>Netko will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>Netko plånboken kommer nu att stängas för att slutföra krypteringen: Kom ihåg att även en krypterad plånboks säkerhet kan äventyras genom keyloggers eller dylika malwares.</translation>
+        <source>Stakecube will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>Stakecube plånboken kommer nu att stängas för att slutföra krypteringen: Kom ihåg att även en krypterad plånboks säkerhet kan äventyras genom keyloggers eller dylika malwares.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -352,8 +352,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about Netko</source>
-        <translation>Visa information om Netko</translation>
+        <source>Show information about Stakecube</source>
+        <translation>Visa information om Stakecube</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -392,13 +392,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-55"/>
-        <source>Send coins to a Netko address</source>
-        <translation>Skicka coins till en Netko adress</translation>
+        <source>Send coins to a Stakecube address</source>
+        <translation>Skicka coins till en Stakecube adress</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>Modify configuration options for Netko</source>
-        <translation>Modifiera konfigurations-alternativ för Netko</translation>
+        <source>Modify configuration options for Stakecube</source>
+        <translation>Modifiera konfigurations-alternativ för Stakecube</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -438,8 +438,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-214"/>
         <location line="+555"/>
-        <source>Netko</source>
-        <translation>Netko</translation>
+        <source>Stakecube</source>
+        <translation>Stakecube</translation>
     </message>
     <message>
         <location line="-555"/>
@@ -448,8 +448,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+193"/>
-        <source>&amp;About Netko</source>
-        <translation>&amp;Om Netko</translation>
+        <source>&amp;About Stakecube</source>
+        <translation>&amp;Om Stakecube</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -500,13 +500,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+0"/>
         <location line="+58"/>
-        <source>Netko client</source>
-        <translation>Netko klient</translation>
+        <source>Stakecube client</source>
+        <translation>Stakecube klient</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to Netko network</source>
-        <translation><numerusform>%n aktiv anslutning till Netko nätverket</numerusform><numerusform>%n aktiva anslutning till Netko nätverket</numerusform></translation>
+        <source>%n active connection(s) to Stakecube network</source>
+        <translation><numerusform>%n aktiv anslutning till Stakecube nätverket</numerusform><numerusform>%n aktiva anslutning till Stakecube nätverket</numerusform></translation>
     </message>
     <message>
         <location line="+488"/>
@@ -600,8 +600,8 @@ Adress: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid Netko address or malformed URI parameters.</source>
-        <translation>URI:n kan inte tolkas! Detta kan bero på en ogiltig Netko adress eller felaktiga URI parametrar.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid Stakecube address or malformed URI parameters.</source>
+        <translation>URI:n kan inte tolkas! Detta kan bero på en ogiltig Stakecube adress eller felaktiga URI parametrar.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -723,8 +723,8 @@ Adress: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+104"/>
-        <source>A fatal error occurred. Netko can no longer continue safely and will quit.</source>
-        <translation>Ett fatalt fel uppstod. Netko kan inte fortsätta och stänger programmet.</translation>
+        <source>A fatal error occurred. Stakecube can no longer continue safely and will quit.</source>
+        <translation>Ett fatalt fel uppstod. Stakecube kan inte fortsätta och stänger programmet.</translation>
     </message>
 </context>
 <context>
@@ -1018,7 +1018,7 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     <message>
         <location line="+10"/>
         <source>The label associated with this address book entry</source>
-        <translation>Namnet som kopplats till denna Netko-adress</translation>
+        <translation>Namnet som kopplats till denna Stakecube-adress</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1057,8 +1057,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Netko address.</source>
-        <translation>Den inslagna adressen &quot;%1&quot; är inte en giltig Netko adress.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Stakecube address.</source>
+        <translation>Den inslagna adressen &quot;%1&quot; är inte en giltig Stakecube adress.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1076,8 +1076,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     <message>
         <location filename="../guiutil.cpp" line="+426"/>
         <location line="+12"/>
-        <source>Netko-Qt</source>
-        <translation>Netko-Qt</translation>
+        <source>Stakecube-Qt</source>
+        <translation>Stakecube-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1149,13 +1149,13 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Netko after logging in to the system.</source>
-        <translation>Starta Netko automatiskt vid inloggning.</translation>
+        <source>Automatically start Stakecube after logging in to the system.</source>
+        <translation>Starta Stakecube automatiskt vid inloggning.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Netko on system login</source>
-        <translation>&amp;Starta Netko vid inloggning</translation>
+        <source>&amp;Start Stakecube on system login</source>
+        <translation>&amp;Starta Stakecube vid inloggning</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -1164,8 +1164,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Netko client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Öppna automatiskt Netko klientens port på routern. Detta fungerar endast om din router stödjer UPnP och det är aktiverat.</translation>
+        <source>Automatically open the Stakecube client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Öppna automatiskt Stakecube klientens port på routern. Detta fungerar endast om din router stödjer UPnP och det är aktiverat.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1194,7 +1194,7 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="-57"/>
-        <source>Connect to the Netko network through a SOCKS5 proxy (e.g. when connecting through Tor).</source>
+        <source>Connect to the Stakecube network through a SOCKS5 proxy (e.g. when connecting through Tor).</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1239,8 +1239,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Netko.</source>
-        <translation>Användargränssnittets språk kan ställas in här. Inställningen börjar gälla efter omstart av Netko.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Stakecube.</source>
+        <translation>Användargränssnittets språk kan ställas in här. Inställningen börjar gälla efter omstart av Stakecube.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1306,8 +1306,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Netko.</source>
-        <translation>Inställningen börjar gälla efter omstart av Netko.</translation>
+        <source>This setting will take effect after restarting Stakecube.</source>
+        <translation>Inställningen börjar gälla efter omstart av Stakecube.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1325,8 +1325,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     <message>
         <location line="+46"/>
         <location line="+247"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Netko network after a connection is established, but this process has not completed yet.</source>
-        <translation>Den visade informationen kan vara gammal. Din plånbok synkroniseras automatiskt med Netko nätverket efter att en anslutning skapats, men denna process är inte klar än.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Stakecube network after a connection is established, but this process has not completed yet.</source>
+        <translation>Den visade informationen kan vara gammal. Din plånbok synkroniseras automatiskt med Stakecube nätverket efter att en anslutning skapats, men denna process är inte klar än.</translation>
     </message>
     <message>
         <location line="-173"/>
@@ -1567,8 +1567,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Netko-Qt help message to get a list with possible Netko command-line options.</source>
-        <translation>Visa Netko-Qt hjälp meddelandet för att få en lista över möjliga Netko kommandoradsalternativ.</translation>
+        <source>Show the Stakecube-Qt help message to get a list with possible Stakecube command-line options.</source>
+        <translation>Visa Stakecube-Qt hjälp meddelandet för att få en lista över möjliga Stakecube kommandoradsalternativ.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1587,13 +1587,13 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>Netko - Debug window</source>
-        <translation>Netko - Felsökningsfönster</translation>
+        <source>Stakecube - Debug window</source>
+        <translation>Stakecube - Felsökningsfönster</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Netko Core</source>
-        <translation>Netko Core</translation>
+        <source>Stakecube Core</source>
+        <translation>Stakecube Core</translation>
     </message>
     <message>
         <location line="+256"/>
@@ -1602,8 +1602,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Netko debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Öppna Netko felsöknings-loggfilen från nuvarande data mapp. Detta kan kan ta ett par minuter för stora log filer.</translation>
+        <source>Open the Stakecube debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Öppna Stakecube felsöknings-loggfilen från nuvarande data mapp. Detta kan kan ta ett par minuter för stora log filer.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1612,8 +1612,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="+325"/>
-        <source>Welcome to the Netko RPC console.</source>
-        <translation>Välkommen till Netko RPC konsoll.</translation>
+        <source>Welcome to the Stakecube RPC console.</source>
+        <translation>Välkommen till Stakecube RPC konsoll.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1793,8 +1793,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-174"/>
-        <source>Enter a Netko address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Fyll i en Netko adress (t.ex. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a Stakecube address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Fyll i en Stakecube adress (t.ex. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1893,8 +1893,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+247"/>
-        <source>WARNING: Invalid Netko address</source>
-        <translation>VARNING: Ogiltig Netko adress</translation>
+        <source>WARNING: Invalid Stakecube address</source>
+        <translation>VARNING: Ogiltig Stakecube adress</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1967,8 +1967,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Netko address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Fyll i en Netko adress (t.ex. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a Stakecube address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Fyll i en Stakecube adress (t.ex. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
 </context>
 <context>
@@ -2028,8 +2028,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Netko address</source>
-        <translation>Signera meddelandet för att verifiera att du äger denna Netko adressen</translation>
+        <source>Sign the message to prove you own this Stakecube address</source>
+        <translation>Signera meddelandet för att verifiera att du äger denna Stakecube adressen</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2060,8 +2060,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Netko address</source>
-        <translation>Verifiera meddelandet för att vara säker på att det var signerat med den angivna Netko adressen</translation>
+        <source>Verify the message to ensure it was signed with the specified Stakecube address</source>
+        <translation>Verifiera meddelandet för att vara säker på att det var signerat med den angivna Stakecube adressen</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2071,8 +2071,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Netko address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Fyll i en Netko adress (t.ex. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a Stakecube address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Fyll i en Stakecube adress (t.ex. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2081,8 +2081,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Netko signature</source>
-        <translation>Fyll i Netko signatur</translation>
+        <source>Enter Stakecube signature</source>
+        <translation>Fyll i Stakecube signatur</translation>
     </message>
     <message>
         <location line="+85"/>
@@ -2660,8 +2660,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+171"/>
-        <source>Netko version</source>
-        <translation>Netko version</translation>
+        <source>Stakecube version</source>
+        <translation>Stakecube version</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2719,7 +2719,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Netko Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Stakecube Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2825,8 +2825,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Netko Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="-103"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Netko will not work properly.</source>
-        <translation>Varning: Kolla att din dators tid och datum är rätt. Netko kan inte fungera ordentligt om tiden i datorn är fel.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Stakecube will not work properly.</source>
+        <translation>Varning: Kolla att din dators tid och datum är rätt. Stakecube kan inte fungera ordentligt om tiden i datorn är fel.</translation>
     </message>
     <message>
         <location line="+130"/>
@@ -3120,7 +3120,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Netko Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+8"/>
-        <source>Initialization sanity check failed. Netko is shutting down.</source>
+        <source>Initialization sanity check failed. Stakecube is shutting down.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3175,13 +3175,13 @@ for example: alertnotify=echo %%s | mail -s &quot;Netko Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Netko</source>
-        <translation>Kunde inte ladda wallet.dat: En nyare version av Netko krävs</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Stakecube</source>
+        <translation>Kunde inte ladda wallet.dat: En nyare version av Stakecube krävs</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart Netko to complete</source>
-        <translation>Plånboken måste skrivas om: Starta om Netko för att slutföra</translation>
+        <source>Wallet needed to be rewritten: restart Stakecube to complete</source>
+        <translation>Plånboken måste skrivas om: Starta om Stakecube för att slutföra</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3240,8 +3240,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Netko Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+124"/>
-        <source>Unable to bind to %s on this computer. Netko is probably already running.</source>
-        <translation>Kan inte binda till %s på denna dator. Netko är sannolikt redan startad.</translation>
+        <source>Unable to bind to %s on this computer. Stakecube is probably already running.</source>
+        <translation>Kan inte binda till %s på denna dator. Stakecube är sannolikt redan startad.</translation>
     </message>
     <message>
         <location line="-101"/>
@@ -3275,7 +3275,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Netko Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Netko is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. Stakecube is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>

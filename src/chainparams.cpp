@@ -52,8 +52,8 @@ public:
         pchMessageStart[1] = 0x61;
         pchMessageStart[2] = 0xc8;
         pchMessageStart[3] = 0xc5;
-        nDefaultPort = 25960;
-        nRPCPort = 25970;
+        nDefaultPort = 17133;
+        nRPCPort = 17233;
         bnProofOfWorkLimit = CBigNum(~uint256(0) >> 20);
 
         // Build the genesis block. Note that the output of the genesis coinbase cannot
@@ -64,7 +64,7 @@ public:
         //    CTxIn(COutPoint(0000000000, 4294967295), coinbase 00012a24323020466562203230313420426974636f696e2041544d7320636f6d6520746f20555341)
         //    CTxOut(empty)
         //  vMerkleTree: 12630d16a9
-        const char* pszTimestamp = "Netko.it  Networking made simple";
+        const char* pszTimestamp = "Stakecube.it  Networking made simple";
         std::vector<CTxIn> vin;
         vin.resize(1);
         vin[0].scriptSig = CScript() << 0 << CBigNum(42) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));

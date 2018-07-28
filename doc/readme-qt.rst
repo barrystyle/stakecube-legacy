@@ -1,4 +1,4 @@
-Netko-qt: Qt5 GUI for Netko
+Stakecube-qt: Qt5 GUI for Stakecube
 ===============================
 
 Build instructions
@@ -117,9 +117,9 @@ flag to qmake to control this:
 Berkely DB version warning
 ==========================
 
-A warning for people using the *static binary* version of Netko on a Linux/UNIX-ish system (tl;dr: **Berkely DB databases are not forward compatible**).
+A warning for people using the *static binary* version of Stakecube on a Linux/UNIX-ish system (tl;dr: **Berkely DB databases are not forward compatible**).
 
-The static binary version of Netko is linked against libdb 5.0 (see also `this Debian issue`_).
+The static binary version of Stakecube is linked against libdb 5.0 (see also `this Debian issue`_).
 
 Now the nasty thing is that databases from 5.X are not compatible with 4.X.
 

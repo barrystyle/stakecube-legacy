@@ -32,7 +32,7 @@ const QString BITCOIN_IPC_PREFIX("stakecube:");
 //
 static QString ipcServerName()
 {
-    QString name("NetkoQt");
+    QString name("StakecubeQt");
 
     // Append a simple hash of the datadir
     // Note that GetDataDir(true) returns a different path

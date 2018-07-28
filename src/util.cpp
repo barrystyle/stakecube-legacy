@@ -948,13 +948,13 @@ void PrintExceptionContinue(std::exception* pex, const char* pszThread)
 boost::filesystem::path GetDefaultDataDir()
 {
     namespace fs = boost::filesystem;
-    // Windows < Vista: C:\Documents and Settings\Username\Application Data\Netko
-    // Windows >= Vista: C:\Users\Username\AppData\Roaming\Netko
-    // Mac: ~/Library/Application Support/Netko
+    // Windows < Vista: C:\Documents and Settings\Username\Application Data\Stakecube
+    // Windows >= Vista: C:\Users\Username\AppData\Roaming\Stakecube
+    // Mac: ~/Library/Application Support/Stakecube
     // Unix: ~/.stakecube
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "Netko";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "Stakecube";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -966,7 +966,7 @@ boost::filesystem::path GetDefaultDataDir()
     // Mac
     pathRet /= "Library/Application Support";
     fs::create_directory(pathRet);
-    return pathRet / "Netko";
+    return pathRet / "Stakecube";
 #else
     // Unix
     return pathRet / ".stakecube";

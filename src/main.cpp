@@ -44,7 +44,7 @@ int nStakeMinConfirmations = 50;
 unsigned int nStakeMinAge = 4 * 60 * 60;
 unsigned int nModifierInterval = 10 * 60;
 
-int nCoinbaseMaturity = 50;
+int nCoinbaseMaturity = 20;
 CBlockIndex* pindexGenesisBlock = NULL;
 int nBestHeight = -1;
 
@@ -986,7 +986,7 @@ int64_t GetProofOfStakeReward(int64_t nCoinAge, int64_t nFees, int nHeight)
 
     nSubsidy = COIN * 3 / 2;
 
-    LogPrint("creation", "GetProofOfStakeReward(): create=%s nCoinAge=%d\n", FormatMoney(nSubsidy), nCoinAge, nHeight);
+    LogPrint("creation", "GetProofOfStakeReward(): create=%d nCoinAge=%d nHeight=%d\n", nSubsidy, nCoinAge, nHeight);
 
     return nSubsidy + nFees;
 }

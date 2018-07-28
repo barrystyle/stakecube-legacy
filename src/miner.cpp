@@ -533,7 +533,7 @@ void ThreadStakeMiner(CWallet *pwallet)
             nLastCoinStakeSearchInterval = 0;
             MilliSleep(1000);
         }
-
+/*
         while (vNodes.empty() || IsInitialBlockDownload())
         {
             nLastCoinStakeSearchInterval = 0;
@@ -550,7 +550,7 @@ void ThreadStakeMiner(CWallet *pwallet)
                 continue;
             }
         }
-
+*/
         //
         // Create new block
         //

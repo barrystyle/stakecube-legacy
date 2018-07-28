@@ -63,23 +63,23 @@ public:
         std::vector<CTxOut> vout;
         vout.resize(1);
         vout[0].SetEmpty();
-        CTransaction txNew(1, 1532780000, vin, vout, 0);
+        CTransaction txNew(1, 1532750000, vin, vout, 0);
         genesis.vtx.push_back(txNew);
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime    = 1532780000;
+        genesis.nTime    = 1532750000;
         genesis.nBits    = bnProofOfWorkLimit.GetCompact();
-        genesis.nNonce   = 656618;
+        genesis.nNonce   = 2537242;
 
-/*
-        for (genesis.nNonce = 0; genesis.nNonce < 0xffffffff; genesis.nNonce++) {
-          if (CBigNum(genesis.GetHash()) < bnProofOfWorkLimit) {
-            printf("%d\n", genesis.nNonce);
-            break;
+        if (genesis.nNonce == 0) {
+          for (genesis.nNonce = 0; genesis.nNonce < 0xffffffff; genesis.nNonce++) {
+            if (CBigNum(genesis.GetHash()) < bnProofOfWorkLimit) {
+              printf("%d\n", genesis.nNonce);
+              break;
+            }
           }
         }
-*/
 
         hashGenesisBlock = genesis.GetHash();
 

@@ -26,6 +26,8 @@ class CNode;
 class CReserveKey;
 class CWallet;
 
+static const int64_t COIN_YEAR_REWARD = 100 * CENT;
+
 /** The maximum allowed size for a serialized block, in bytes (network rule) */
 static const unsigned int MAX_BLOCK_SIZE = 1000000;
 /** The maximum size for mined blocks */
@@ -66,6 +68,7 @@ extern std::set<std::pair<COutPoint, unsigned int> > setStakeSeen;
 extern CBlockIndex* pindexGenesisBlock;
 extern int nStakeMinConfirmations;
 extern unsigned int nStakeMinAge;
+extern unsigned int nStakeMaxAge;
 extern unsigned int nNodeLifespan;
 extern int nCoinbaseMaturity;
 extern int nBestHeight;

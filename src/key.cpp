@@ -9,6 +9,12 @@
 
 #include "key.h"
 
+#if OPENSSL_VERSION_NUMBER >= 0x10100000L
+typedef struct ECDSA_SIG_st {
+    BIGNUM *r;
+    BIGNUM *s;
+} ECDSA_SIG;
+#endif
 
 // anonymous namespace with local implementation code (OpenSSL interaction)
 namespace {
@@ -150,13 +156,27 @@ public:
 
     void SetSecretBytes(const unsigned char vch[32]) {
         bool ret;
+#if OPENSSL_VERSION_NUMBER >= 0x10100000L
+        BIGNUM *bn;
+        bn = BN_new();
+        ret = BN_bin2bn(vch, 32, bn);
+#else
         BIGNUM bn;
         BN_init(&bn);
         ret = BN_bin2bn(vch, 32, &bn);
+#endif
         assert(ret);
+#if OPENSSL_VERSION_NUMBER >= 0x10100000L
+        ret = EC_KEY_regenerate_key(pkey, bn);
+#else
         ret = EC_KEY_regenerate_key(pkey, &bn);
+#endif
         assert(ret);
+#if OPENSSL_VERSION_NUMBER >= 0x10100000L
+        BN_free(bn);
+#else
         BN_clear_free(&bn);
+#endif
     }
 
     void GetPrivKey(CPrivKey &privkey, bool fCompressed) {

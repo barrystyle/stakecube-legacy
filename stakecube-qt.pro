@@ -309,7 +309,7 @@ SOURCES += src/qt/bitcoin.cpp src/qt/bitcoingui.cpp \
     src/scrypt-x86_64.S \
     src/scrypt.cpp \
     src/pbkdf2.cpp \
-    src/blake2s-ref.c
+    src/blake2s-ref.c \
     src/Lyra2.c \
     src/Lyra2Z.c \
     src/Sponge.c \

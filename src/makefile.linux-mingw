@@ -11,7 +11,7 @@ CXX:=$(TARGET_PLATFORM)-w64-mingw32-g++
 RANLIB=$(TARGET_PLATFORM)-w64-mingw32-ranlib
 STRIP=$(TARGET_PLATFORM)-w64-mingw32-strip
 
-USE_UPNP:=0
+USE_UPNP:=-
 USE_WALLET:=1
 
 INCLUDEPATHS= \
@@ -90,7 +90,13 @@ OBJS= \
     obj/scrypt.o \
     obj/scrypt-x86.o \
     obj/scrypt-x86_64.o \
-    obj/chainparams.o
+    obj/chainparams.o \
+    obj/Lyra2.o \
+    obj/Lyra2Z.o \
+    obj/Sponge.o \
+    obj/sph_blake.o \
+    obj/lyra2z_hash.o \
+    obj/blake2s-ref.o
 
 ifeq (${USE_WALLET}, 1)
     DEFS += -DENABLE_WALLET

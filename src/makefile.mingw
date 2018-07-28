@@ -80,7 +80,13 @@ OBJS= \
     obj/scrypt.o \
     obj/scrypt-x86.o \
     obj/scrypt-x86_64.o \
-    obj/chainparams.o
+    obj/chainparams.o \
+    obj/Lyra2.o \
+    obj/Lyra2Z.o \
+    obj/Sponge.o \
+    obj/sph_blake.o \
+    obj/lyra2z_hash.o \
+    obj/blake2s-ref.o
 
 ifeq (${USE_WALLET}, 1)
     DEFS += -DENABLE_WALLET

@@ -12,6 +12,7 @@
 #include "net.h"
 #include "script.h"
 #include "scrypt.h"
+#include "lyra2z_hash.h"
 #include "hash.h"
 
 #include <limits>
@@ -643,7 +644,9 @@ public:
 
     uint256 GetPoWHash() const
     {
-        return HashBlake2s(BEGIN(nVersion), END(nNonce));
+        uint256 thash;
+	lyra2z_hash(BEGIN(nVersion), BEGIN(thash), 80);
+	return thash;
     }
 
     int64_t GetBlockTime() const

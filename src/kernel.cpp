@@ -8,6 +8,7 @@
 #include "kernel.h"
 #include "txdb.h"
 #include "hash.h"
+#include "blake2.h"
 
 using namespace std;
 

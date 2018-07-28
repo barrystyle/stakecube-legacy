@@ -1,0 +1,2 @@
+debian/bin/stakecubed usr/bin
+src/stakecubed usr/lib/stakecube

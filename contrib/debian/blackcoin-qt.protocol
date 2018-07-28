@@ -1,0 +1,11 @@
+[Protocol]
+exec=stakecube-qt '%u'
+protocol=stakecube
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false

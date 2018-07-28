@@ -48,57 +48,53 @@ public:
         // The message start string is designed to be unlikely to occur in normal data.
         // The characters are rarely used upper ASCII, not valid as UTF-8, and produce
         // a large 4-byte int at any alignment.
-        pchMessageStart[0] = 0x2d;
-        pchMessageStart[1] = 0x61;
-        pchMessageStart[2] = 0xc8;
-        pchMessageStart[3] = 0xc5;
+        pchMessageStart[0] = 0xa7;
+        pchMessageStart[1] = 0x47;
+        pchMessageStart[2] = 0x47;
+        pchMessageStart[3] = 0xa7;
         nDefaultPort = 17133;
         nRPCPort = 17233;
         bnProofOfWorkLimit = CBigNum(~uint256(0) >> 20);
 
-        // Build the genesis block. Note that the output of the genesis coinbase cannot
-        // be spent as it did not originally exist in the database.
-        //
-        //CBlock(hash=000001faef25dec4fbcf906e6242621df2c183bf232f263d0ba5b101911e4563, ver=1, hashPrevBlock=0000000000000000000000000000000000000000000000000000000000000000, hashMerkleRoot=12630d16a97f24b287c8c2594dda5fb98c9e6c70fc61d44191931ea2aa08dc90, nTime=1393221600, nBits=1e0fffff, nNonce=164482, vtx=1, vchBlockSig=)
-        //  Coinbase(hash=12630d16a9, nTime=1393221600, ver=1, vin.size=1, vout.size=1, nLockTime=0)
-        //    CTxIn(COutPoint(0000000000, 4294967295), coinbase 00012a24323020466562203230313420426974636f696e2041544d7320636f6d6520746f20555341)
-        //    CTxOut(empty)
-        //  vMerkleTree: 12630d16a9
-        const char* pszTimestamp = "Stakecube.it  Networking made simple";
+        const char* pszTimestamp = "stakecube (scc) july 2018.";
         std::vector<CTxIn> vin;
         vin.resize(1);
         vin[0].scriptSig = CScript() << 0 << CBigNum(42) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
         std::vector<CTxOut> vout;
         vout.resize(1);
         vout[0].SetEmpty();
-        CTransaction txNew(1, 1488963600, vin, vout, 0);
+        CTransaction txNew(1, 1532780000, vin, vout, 0);
         genesis.vtx.push_back(txNew);
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime    = 1488963600;
+        genesis.nTime    = 1532780000;
         genesis.nBits    = bnProofOfWorkLimit.GetCompact();
-        genesis.nNonce   = 156740;
+        genesis.nNonce   = 0;
 
+        for (genesis.nNonce = 0; genesis.nNonce < 0xffffffff; genesis.nNonce++) {
+          if (CBigNum(genesis.GetHash()) < bnProofOfWorkLimit) {
+            printf("%d\n", genesis.nNonce);
+            break;
+          }
+        }
         hashGenesisBlock = genesis.GetHash();
+
         assert(hashGenesisBlock == uint256("0x00000b1677bc31fdf9d92f0781896022289464b4a31a3576a486390b86ace531"));
         assert(genesis.hashMerkleRoot == uint256("0xb869fd250564a1c7bc1961c4585b056f8f0920ec638a5c237ef9b4b68e1d9b58"));
 
-        vSeeds.push_back(CDNSSeedData("stakecube.tech", "node1.stakecube.tech"));
-        vSeeds.push_back(CDNSSeedData("stakecube.tech", "node2.stakecube.tech"));
-        vSeeds.push_back(CDNSSeedData("stakecube.tech", "node3.stakecube.tech"));
-        vSeeds.push_back(CDNSSeedData("stakecube.tech", "node4.stakecube.tech"));
+        // vSeeds.push_back(CDNSSeedData("", ""));
 
-        base58Prefixes[PUBKEY_ADDRESS] = {53};
-        base58Prefixes[SCRIPT_ADDRESS] = {5};
-        base58Prefixes[SECRET_KEY] =     {177};
+        base58Prefixes[PUBKEY_ADDRESS] = {125};
+        base58Prefixes[SCRIPT_ADDRESS] = {85};
+        base58Prefixes[SECRET_KEY] =     {253};
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x88)(0xB2)(0x1E).convert_to_container<std::vector<unsigned char> >();
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x04)(0x88)(0xAD)(0xE4).convert_to_container<std::vector<unsigned char> >();
 
         convertSeed6(vFixedSeeds, pnSeed6_main, ARRAYLEN(pnSeed6_main));
 
-        nLastPOWBlock = 15000; // to be safe, keep pow running with 0 reward for a while after pos starts
-        nFirstPOSBlock = 12961;
+        nLastPOWBlock = 262800;
+        nFirstPOSBlock = 1;
     }
 
     virtual const CBlock& GenesisBlock() const { return genesis; }
@@ -138,8 +134,8 @@ public:
         genesis.nNonce = 70678;
         genesis.nTime    = 1488224842;
 
-        hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x0000397cab3008f491ad1a7428225fd0451f86b1ee46fb728ec16fc92cc7a47d"));
+        //hashGenesisBlock = genesis.GetHash();
+        //assert(hashGenesisBlock == uint256("0x0000397cab3008f491ad1a7428225fd0451f86b1ee46fb728ec16fc92cc7a47d"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
@@ -173,10 +169,10 @@ public:
         genesis.nTime = 1411111111;
         genesis.nBits  = bnProofOfWorkLimit.GetCompact();
         genesis.nNonce = 5;
-        hashGenesisBlock = genesis.GetHash();
+        //hashGenesisBlock = genesis.GetHash();
         nDefaultPort = 25962;
         strDataDir = "regtest";
-        assert(hashGenesisBlock == uint256("0x32f8487a1b0faa0e9b579b0b38677c3adc8e41c99042e36082e56db304d3ce8c"));
+        //assert(hashGenesisBlock == uint256("0x32f8487a1b0faa0e9b579b0b38677c3adc8e41c99042e36082e56db304d3ce8c"));
 
         vSeeds.clear();  // Regtest mode doesn't have any DNS seeds.
     }

@@ -40,11 +40,11 @@ set<pair<COutPoint, unsigned int> > setStakeSeen;
 
 CBigNum bnProofOfStakeLimit(~uint256(0) >> 20);
 
-int nStakeMinConfirmations = 300;
-unsigned int nStakeMinAge =  10 * 60 * 60; // 10 hours
-unsigned int nModifierInterval = 10 * 60; // time to elapse before new modifier is computed
+int nStakeMinConfirmations = 50;
+unsigned int nStakeMinAge = 4 * 60 * 60;
+unsigned int nModifierInterval = 10 * 60;
 
-int nCoinbaseMaturity = 300;
+int nCoinbaseMaturity = 50;
 CBlockIndex* pindexGenesisBlock = NULL;
 int nBestHeight = -1;
 
@@ -966,12 +966,13 @@ static CBigNum GetProofOfStakeLimit(int nHeight)
 // miner's coin base reward
 int64_t GetProofOfWorkReward(int64_t nFees, int nHeight)
 {
-    int64_t nSubsidy = 0;
+    int64_t nSubsidy = 25 * COIN;
 
-    if (nHeight <= 12960)
-       nSubsidy = 259 * COIN;
-    else
-       nSubsidy = 0;
+    if (nHeight == 1)
+       nSubsidy = 250000 * COIN;
+
+    if (nHeight > 262800)
+       nSubsidy = 0 * COIN;
 
     LogPrint("creation", "GetProofOfWorkReward() : create=%s nSubsidy=%d nHeight=%d\n", FormatMoney(nSubsidy), nSubsidy, nHeight);
 
@@ -983,17 +984,14 @@ int64_t GetProofOfStakeReward(int64_t nCoinAge, int64_t nFees, int nHeight)
 {
     int64_t nSubsidy;
 
-    if (nHeight <= 900000)
-       nSubsidy = 25 * COIN;
-    else
-       nSubsidy = 25 / 100 * COIN;
+    nSubsidy = COIN * 3 / 2;
 
     LogPrint("creation", "GetProofOfStakeReward(): create=%s nCoinAge=%d\n", FormatMoney(nSubsidy), nCoinAge, nHeight);
 
     return nSubsidy + nFees;
 }
 
-static const int64_t nTargetTimespan =  48 * 60;  // 48 mins
+static const int64_t nTargetTimespan = 10 * 60;
 
 // ppcoin: find last block index up to pindex
 const CBlockIndex* GetLastBlockIndex(const CBlockIndex* pindex, bool fProofOfStake)

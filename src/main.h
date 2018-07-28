@@ -54,9 +54,9 @@ inline bool MoneyRange(int64_t nValue) { return (nValue >= 0 && nValue <= MAX_MO
 /** Threshold for nLockTime: below this value it is interpreted as block number, otherwise as UNIX timestamp. */
 static const unsigned int LOCKTIME_THRESHOLD = 500000000; // Tue Nov  5 00:53:20 1985 UTC
 
-inline bool IsEndOfPOW(int nHeight) { return nHeight > 12960; } // block 12960 End of PoW Subsidy, last pow block is 15000
+inline bool IsEndOfPOW(int nHeight) { return nHeight > 262800; }
 inline int64_t FutureDrift(int64_t nTime) { return nTime + 15; }
-inline unsigned int GetTargetSpacing(int nHeight) { return IsEndOfPOW(nHeight) ? 300 : 600; }
+inline unsigned int GetTargetSpacing(int nHeight) { return IsEndOfPOW(nHeight) ? 120 : 120; }
 
 extern CScript COINBASE_FLAGS;
 extern CCriticalSection cs_main;

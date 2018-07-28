@@ -70,18 +70,21 @@ public:
         genesis.nVersion = 1;
         genesis.nTime    = 1532780000;
         genesis.nBits    = bnProofOfWorkLimit.GetCompact();
-        genesis.nNonce   = 0;
+        genesis.nNonce   = 656618;
 
+/*
         for (genesis.nNonce = 0; genesis.nNonce < 0xffffffff; genesis.nNonce++) {
           if (CBigNum(genesis.GetHash()) < bnProofOfWorkLimit) {
             printf("%d\n", genesis.nNonce);
             break;
           }
         }
+*/
+
         hashGenesisBlock = genesis.GetHash();
 
-        assert(hashGenesisBlock == uint256("0x00000b1677bc31fdf9d92f0781896022289464b4a31a3576a486390b86ace531"));
-        assert(genesis.hashMerkleRoot == uint256("0xb869fd250564a1c7bc1961c4585b056f8f0920ec638a5c237ef9b4b68e1d9b58"));
+        //assert(hashGenesisBlock == uint256("0x00000b1677bc31fdf9d92f0781896022289464b4a31a3576a486390b86ace531"));
+        //assert(genesis.hashMerkleRoot == uint256("0xb869fd250564a1c7bc1961c4585b056f8f0920ec638a5c237ef9b4b68e1d9b58"));
 
         // vSeeds.push_back(CDNSSeedData("", ""));
 

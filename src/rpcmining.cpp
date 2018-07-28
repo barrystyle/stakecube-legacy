@@ -161,13 +161,12 @@ Value checkkernel(const Array& params, bool fHelp)
     Array inputs = params[0].get_array();
     bool fCreateBlockTemplate = params.size() > 1 ? params[1].get_bool() : false;
 
-/*
     if (vNodes.empty())
         throw JSONRPCError(-9, "Stakecube is not connected!");
 
     if (IsInitialBlockDownload())
         throw JSONRPCError(-10, "Stakecube is downloading blocks...");
-*/
+
     COutPoint kernel;
     CBlockIndex* pindexPrev = pindexBest;
     unsigned int nBits = GetNextTargetRequired(pindexPrev, true);
@@ -243,13 +242,11 @@ Value getworkex(const Array& params, bool fHelp)
             "If [data, coinbase] is not specified, returns extended work data.\n"
         );
 
-/*
     if (vNodes.empty())
         throw JSONRPCError(-9, "Stakecube is not connected!");
 
     if (IsInitialBlockDownload())
         throw JSONRPCError(-10, "Stakecube is downloading blocks...");
-*/
 
     if (pindexBest->nHeight >= Params().LastPOWBlock())
         throw JSONRPCError(RPC_MISC_ERROR, "No more PoW blocks");
@@ -379,13 +376,11 @@ Value getwork(const Array& params, bool fHelp)
             "  \"target\" : little endian hash target\n"
             "If [data] is specified, tries to solve the block and returns true if it was successful.");
 
-/*
     if (vNodes.empty())
         throw JSONRPCError(RPC_CLIENT_NOT_CONNECTED, "Stakecube is not connected!");
 
     if (IsInitialBlockDownload())
         throw JSONRPCError(RPC_CLIENT_IN_INITIAL_DOWNLOAD, "Stakecube is downloading blocks...");
-*/
 
     if (pindexBest->nHeight >= Params().LastPOWBlock())
         throw JSONRPCError(RPC_MISC_ERROR, "No more PoW blocks");

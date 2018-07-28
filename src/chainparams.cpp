@@ -72,21 +72,12 @@ public:
         genesis.nBits    = bnProofOfWorkLimit.GetCompact();
         genesis.nNonce   = 2537242;
 
-        if (genesis.nNonce == 0) {
-          for (genesis.nNonce = 0; genesis.nNonce < 0xffffffff; genesis.nNonce++) {
-            if (CBigNum(genesis.GetHash()) < bnProofOfWorkLimit) {
-              printf("%d\n", genesis.nNonce);
-              break;
-            }
-          }
-        }
-
         hashGenesisBlock = genesis.GetHash();
 
-        //assert(hashGenesisBlock == uint256("0x00000b1677bc31fdf9d92f0781896022289464b4a31a3576a486390b86ace531"));
-        //assert(genesis.hashMerkleRoot == uint256("0xb869fd250564a1c7bc1961c4585b056f8f0920ec638a5c237ef9b4b68e1d9b58"));
+        assert(hashGenesisBlock == uint256("0x0000025f0dbe318a85c85d34a987ec3342ec4bb279b8be2b478104143aa2e58d"));
+        assert(genesis.hashMerkleRoot == uint256("0x117b045b2c03cd1de9c05b27903ea25548ee7a5ff8f80e567b837067e4d49fc9"));
 
-        // vSeeds.push_back(CDNSSeedData("", ""));
+        vSeeds.push_back(CDNSSeedData("192.81.221.78", "192.81.221.78"));
 
         base58Prefixes[PUBKEY_ADDRESS] = {125};
         base58Prefixes[SCRIPT_ADDRESS] = {85};

@@ -13,6 +13,8 @@ Brief Specifications
 * PoW Target Spacing: 120 Seconds
 * PoW Difficulty Retarget: 10 Minutes
 * PoW Reward per Block: 25 SCC
+* PoS Kernel Type: Blackcoin (modified for variable PoS rewards!)
+* PoS Selection Algorithm: Blake2b
 * PoS Target Spacing: 120 Seconds
 * PoS Difficulty Retarget: 10 Minutes
 * PoS Reward: 6% per Month (~100% per annum)
@@ -30,6 +32,8 @@ Premine is contained within block 1, a total of 250000 SCC, subsequent blocks be
 Both Proof of Stake and Proof Of Work have their difficulty retargeting algorithms set for every 2 minutes.
 
 Proof of Stake minting is set to reward users 100% per annum; or 6% per month.
+
+Unlike other coins utilizing the Blackcoin PoS kernel; PoS rewards aren't a boring 'static' reward that never changes, they are variable dependant on the CoinAge (like Peercoin).
 
 Proof of Work mining is done via Lyra2Z.
 

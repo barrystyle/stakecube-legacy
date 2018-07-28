@@ -229,8 +229,11 @@ uint256 ComputeStakeModifierV2(const CBlockIndex* pindexPrev, const uint256& ker
 //
 static bool CheckStakeKernelHashV2(CBlockIndex* pindexPrev, unsigned int nBits, unsigned int nTimeBlockFrom, const CTransaction& txPrev, const COutPoint& prevout, unsigned int nTimeTx, uint256& hashProofOfStake, uint256& targetProofOfStake, bool fPrintProofOfStake)
 {
-    if (nTimeTx < txPrev.nTime)  // Transaction timestamp violation
+    if (nTimeTx < txPrev.nTime)
         return error("CheckStakeKernelHash() : nTime violation");
+
+    if((nTimeBlockFrom + nStakeMinAge) > nTimeTx)
+      return(error("CheckStakeKernelHash() : min. stake age violation"));
 
     // Base target
     CBigNum bnTarget;

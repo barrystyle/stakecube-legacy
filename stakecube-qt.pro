@@ -1,6 +1,6 @@
 TEMPLATE = app
 TARGET = stakecube-qt
-VERSION = 1.0.0.1
+VERSION = 1.0.0
 INCLUDEPATH += src src/json src/qt
 QT += network
 DEFINES += ENABLE_WALLET
@@ -227,7 +227,12 @@ HEADERS += src/qt/bitcoingui.h \
     src/threadsafety.h \
     src/tinyformat.h \
     src/blake2.h \
-    src/blake2-impl.h
+    src/blake2-impl.h \
+    src/Lyra2.h \
+    src/Lyra2Z.h \
+    src/Sponge.h \
+    src/sph_blake.h \
+    src/lyra2z_hash.h
 
 SOURCES += src/qt/bitcoin.cpp src/qt/bitcoingui.cpp \
     src/qt/transactiontablemodel.cpp \
@@ -305,6 +310,12 @@ SOURCES += src/qt/bitcoin.cpp src/qt/bitcoingui.cpp \
     src/scrypt.cpp \
     src/pbkdf2.cpp \
     src/blake2s-ref.c
+    src/Lyra2.c \
+    src/Lyra2Z.c \
+    src/Sponge.c \
+    src/sph_blake.c \
+    src/lyra2z_hash.c
+
 
 RESOURCES += \
     src/qt/bitcoin.qrc
